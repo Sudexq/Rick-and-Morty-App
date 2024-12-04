@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Rick and Morty Karakter Listeleme Uygulaması
+## Özellikler
+- **Filtreleme**:
+  - Karakterleri isme, türüne, cinsiyetine ve durumuna göre filtreleyebilirsiniz.
+- **Sıralama**:
+  - Karakter isimlerini alfabetik olarak sıralayabilirsiniz.
+- **Sayfalama**:
+  - Dinamik sayfa numaralandırma ve sayfa boyutu seçimi.
+- **Responsive Arayüz**:
+  - Material-UI kullanılarak modern ve kullanıcı dostu bir tasarım sağlandı.
+    
+## Kullanılan Teknolojiler
+- React
+- Material-UI
+- Rick and Morty API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Kurulum
+Proje kodunu yerel makinenize kopyalayarak çalıştırabilirsiniz:
 
-## Available Scripts
+1. **Depoyu klonlayın**:
+   ```bash
+   git clone https://github.com/kullanıcı-adı/Rick-and-Morty-App.git
+   cd Rick-and-Morty-App
+2. **Gerekli bağımlılıkları yükleyin**:
+   ```bash
+   npm install
+3. **Uygulamayı çalıştırın**:
+   ```bash
+   npm start
 
-In the project directory, you can run:
+#### **Kullanım**
+```markdown
+## Kullanım
+1. Uygulamayı çalıştırdıktan sonra Rick and Morty karakterlerini listeleyen bir tablo göreceksiniz.
+2. Filtreleme alanlarını kullanarak:
+   - İsim, tür, durum veya cinsiyete göre karakterleri filtreleyebilirsiniz.
+3. Tablo başlıklarına tıklayarak alfabetik sıralama yapabilirsiniz.
+4. Sayfa numaraları ve sayfa boyutu seçeneğiyle verileri sayfalayabilirsiniz.
+```
+## API
+Bu uygulama, [Rick and Morty API](https://rickandmortyapi.com/) kullanılarak geliştirilmiştir.
 
-### `npm start`
+## Ekran Görüntüleri
+### Filtreleme
+![Filtreleme](https://github.com/user-attachments/assets/b924eec5-8c8a-4d7a-83ea-b83d353d8da0)
+### Tablo
+![Tablo](https://github.com/user-attachments/assets/c97f7a08-5d61-4e4e-8eb2-c2c1c78448b2)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
